@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f40484d-c0c3-4530-8404-949264b91891">
+  <name>OSBB_Project</name>
+  <synonym>
+    <key>ru</key>
+    <value>OSBB</value>
+  </synonym>
+  <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="0e3440e4-f5be-4881-853e-f75c036b6521"/>
+  <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="a1b5d0c0-5e77-4590-8d12-6954645651cb"/>
+  <containedObjects classId="e3687481-0a87-462c-a166-9f34594f9bba" objectId="8eb66d4d-9c0f-4f93-9847-bbf0d142dddc"/>
+  <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="8114ad20-ec13-4e55-ae94-fd0658b40af4"/>
+  <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="295d4f3f-7bee-43ac-9da6-9d3899a31d5f"/>
+  <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="49354906-a7dd-4c60-92e6-10fd7d43f775"/>
+  <configurationExtensionCompatibilityMode>8.3.10</configurationExtensionCompatibilityMode>
+  <defaultRunMode>ManagedApplication</defaultRunMode>
+  <usePurposes>PersonalComputer</usePurposes>
+  <scriptVariant>Russian</scriptVariant>
+  <defaultLanguage>Language.Русский</defaultLanguage>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
+  <modalityUseMode>DontUse</modalityUseMode>
+  <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
+  <compatibilityMode>8.3.10</compatibilityMode>
+  <languages uuid="2917e36d-eb0d-4321-abbe-8bec61791ffd">
+    <name>Русский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Русский</value>
+    </synonym>
+    <languageCode>ru</languageCode>
+  </languages>
+  <languages uuid="b30925b0-83c5-491f-a354-969771b90606">
+    <name>Украинский</name>
+    <synonym>
+      <key>ru</key>
+      <value>Украинский</value>
+    </synonym>
+    <languageCode>uk</languageCode>
+  </languages>
+  <catalogs>Catalog.Справочник</catalogs>
+</mdclass:Configuration>
