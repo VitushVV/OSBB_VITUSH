@@ -37,5 +37,13 @@
     </synonym>
     <languageCode>uk</languageCode>
   </languages>
-  <catalogs>Catalog.ОСББ</catalogs>
+  <subsystems>Subsystem.Общая</subsystems>
+  <roles>Role.Глава_ОСМД</roles>
+  <roles>Role.Программист</roles>
+  <roles>Role.Квартира</roles>
+  <catalogs>Catalog.ОСМД</catalogs>
+  <catalogs>Catalog.Помещения</catalogs>
+  <catalogs>Catalog.Подъезд</catalogs>
+  <catalogs>Catalog.ФизЛицо</catalogs>
+  <enums>Enum.ВидПомещения</enums>
 </mdclass:Configuration>

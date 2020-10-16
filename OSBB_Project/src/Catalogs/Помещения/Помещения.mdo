@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8c850419-b262-4a56-9a85-0b1183768483">
+  <producedTypes>
+    <objectType typeId="f4aac716-a1e5-455d-a404-be369ef169df" valueTypeId="60a03b06-7170-4e44-912f-bc39497e1ada"/>
+    <refType typeId="11f5730f-6c7d-4db0-91c7-a675bb3e2e22" valueTypeId="4fd6bae7-dec8-4108-a88e-939f741ee5bf"/>
+    <selectionType typeId="a112d951-d962-4328-8bac-f3071521dc0b" valueTypeId="151e8325-0a47-4138-81bc-47027b55f153"/>
+    <listType typeId="af2b1e00-ffdb-4419-a5a5-5dd8b3a98600" valueTypeId="d926ad18-9c56-4494-9d2c-bc984f272303"/>
+    <managerType typeId="43105a13-00ab-4648-b64e-fe2f593257a8" valueTypeId="8ef9b196-65fa-4dc8-9bb5-43b9eb9e3c63"/>
+  </producedTypes>
+  <name>Помещения</name>
+  <synonym>
+    <key>uk</key>
+    <value>Приміщення</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Помещения</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Помещения.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Помещения.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

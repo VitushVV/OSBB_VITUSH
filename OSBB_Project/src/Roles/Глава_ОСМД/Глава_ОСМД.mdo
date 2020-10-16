@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="76da3ec6-2834-4e0a-915a-d19aa2a007a8">
+  <name>Глава_ОСМД</name>
+  <synonym>
+    <key>uk</key>
+    <value>Голова ОСББ</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Глава ОСМД</value>
+  </synonym>
+</mdclass:Role>

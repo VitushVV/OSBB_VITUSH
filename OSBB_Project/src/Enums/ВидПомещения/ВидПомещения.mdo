@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9feddd8f-1f86-4843-a2d3-d30de9e195f4">
+  <producedTypes>
+    <refType typeId="bbca49cc-da15-4906-9cb5-37ee8231c45e" valueTypeId="42912ff0-7cb1-4b7d-8fb0-fd848d1c80ca"/>
+    <listType typeId="73f91601-a77b-483e-a33d-7b8ed11087c3" valueTypeId="3f001c81-397c-438a-81f6-021ba55928c2"/>
+    <managerType typeId="9b66f8da-3d25-4b71-b2ef-57fba0c65fd4" valueTypeId="2708913a-fe5d-413b-9d1c-8ab7629b3480"/>
+  </producedTypes>
+  <name>ВидПомещения</name>
+  <synonym>
+    <key>uk</key>
+    <value>Вид приміщення</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Вид помещения</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c7fc1f08-4e66-42ff-aafc-519d40f4bc96">
+    <name>Квартира</name>
+    <synonym>
+      <key>uk</key>
+      <value>Квартира</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Квартира</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ad31164f-17c1-44a1-843f-1c81c1583a5d">
+    <name>Подъезд</name>
+    <synonym>
+      <key>uk</key>
+      <value>Під'їзд</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подъезд</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c9cdb2f5-5b74-4554-b7e2-f65e3a06007b">
+    <name>Подвал</name>
+    <synonym>
+      <key>uk</key>
+      <value>Підвал</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подвал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d72183e-3828-4728-95a1-f6db634da751">
+    <name>Другое</name>
+    <synonym>
+      <key>uk</key>
+      <value>Інше</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Другое</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

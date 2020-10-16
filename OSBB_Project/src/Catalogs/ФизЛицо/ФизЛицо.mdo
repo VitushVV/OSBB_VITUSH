@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5995e2c-671f-4d39-94ac-9f15cd7afa61">
+  <producedTypes>
+    <objectType typeId="fec4cae4-35f1-4778-8e7e-d2c6f146a16d" valueTypeId="7c249fb3-f5aa-4552-a12c-d09c995087c4"/>
+    <refType typeId="6b572d8b-7907-4455-8180-edcad2fbaa80" valueTypeId="0961c2b0-f5d4-444b-9e51-bff8dfebc1be"/>
+    <selectionType typeId="dccd6837-16ac-47eb-91db-f04c5107b72c" valueTypeId="129c792f-73d9-46a3-a02d-b2df7929710d"/>
+    <listType typeId="ed73540d-651f-4538-81d6-3b3274a297e0" valueTypeId="39b673c9-ae6c-4477-a149-298bf278fb02"/>
+    <managerType typeId="8ccf7793-7bc3-46de-9449-59c098eb6789" valueTypeId="f669a8c4-a514-4229-9590-4f2a1f090e00"/>
+  </producedTypes>
+  <name>ФизЛицо</name>
+  <synonym>
+    <key>uk</key>
+    <value>Фіз. особа</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Физ. лицо</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ФизЛицо.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ФизЛицо.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

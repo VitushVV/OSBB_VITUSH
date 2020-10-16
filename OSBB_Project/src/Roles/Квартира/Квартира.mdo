@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c5ed6554-3cd7-439e-817d-6cfd6df28a6f">
+  <name>Квартира</name>
+  <synonym>
+    <key>uk</key>
+    <value>Квартира</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Квартира</value>
+  </synonym>
+</mdclass:Role>

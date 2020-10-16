@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="62e115e9-ffbd-4fb6-ae71-6e856b3eba38">
+  <producedTypes>
+    <objectType typeId="5758acfb-0238-4138-9cea-ee4cf2a0c19e" valueTypeId="dc904beb-1284-48ca-a3e0-795b88cdc6ce"/>
+    <refType typeId="c6153d17-687f-41e8-96a4-11bd1a006738" valueTypeId="0e6e00e3-04fb-4ebe-84e3-1d5aa68a847e"/>
+    <selectionType typeId="9a4b5e5c-9f13-4565-8585-920d4304a010" valueTypeId="afdf8525-97ea-43de-b7ca-9d27fc1c06df"/>
+    <listType typeId="fe5b0543-df41-49d4-b503-74510d4a7be7" valueTypeId="4ea78f90-16fb-49dc-95e1-29367018864f"/>
+    <managerType typeId="a7dfa9d2-6514-4ea0-a254-108ac1703de8" valueTypeId="d7b20a27-5fe2-4b76-8598-4f17ed2f98b6"/>
+  </producedTypes>
+  <name>ОСМД</name>
+  <synonym>
+    <key>uk</key>
+    <value>ОСББ</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>ОСМД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ОСМД.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ОСМД.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <hierarchical>true</hierarchical>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

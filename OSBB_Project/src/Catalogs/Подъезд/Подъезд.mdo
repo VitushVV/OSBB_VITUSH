@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="87d4cb56-1ef8-48e0-848b-cd170ca8b73f">
+  <producedTypes>
+    <objectType typeId="9134dbbd-b0cd-4de9-8151-1d0d0075dfd7" valueTypeId="8688e9aa-53c5-4cbf-bb40-ab40c9b43d33"/>
+    <refType typeId="8de5b880-0e3d-438b-8532-09d5b8006e9f" valueTypeId="07bc96df-c5cb-446a-85c9-0af7ecb9fc74"/>
+    <selectionType typeId="169ad26b-59c2-408c-b663-5d3959e71891" valueTypeId="3357f7e8-3e6c-4ef5-95c2-a2066a70b727"/>
+    <listType typeId="f66f9e3a-f44d-4a46-8bc3-8b619681b2cf" valueTypeId="b4ea4862-efa5-4399-96c8-5456f87d451c"/>
+    <managerType typeId="9c1b7995-7f2f-4344-9f94-c88914ae89eb" valueTypeId="1531197a-82d2-414c-9bf6-e82ecd4693b7"/>
+  </producedTypes>
+  <name>Подъезд</name>
+  <synonym>
+    <key>uk</key>
+    <value>Під'їзд</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Подъезд</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Подъезд.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Подъезд.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

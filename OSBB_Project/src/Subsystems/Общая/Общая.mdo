@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="69b817ee-2407-4363-9aec-275be3aff420">
+  <name>Общая</name>
+  <synonym>
+    <key>uk</key>
+    <value>Загальна</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Общая</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ОСМД</content>
+  <content>Catalog.Помещения</content>
+  <content>Catalog.Подъезд</content>
+  <content>Catalog.ФизЛицо</content>
+  <content>Role.Программист</content>
+  <content>Role.Квартира</content>
+  <content>Role.Глава_ОСМД</content>
+</mdclass:Subsystem>
