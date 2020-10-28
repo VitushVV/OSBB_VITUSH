@@ -26,7 +26,7 @@
   <levelCount>2</levelCount>
   <foldersOnTop>true</foldersOnTop>
   <codeLength>9</codeLength>
-  <descriptionLength>25</descriptionLength>
+  <descriptionLength>50</descriptionLength>
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <checkUnique>true</checkUnique>
@@ -34,4 +34,62 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.Помещения.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="f4613228-0585-40f3-8896-ec8523561f18">
+    <name>ВидПомещения</name>
+    <synonym>
+      <key>uk</key>
+      <value>Вид приміщення</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Вид помещения</value>
+    </synonym>
+    <type>
+      <types>EnumRef.ВидПомещения</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="68bab132-43d5-477e-b703-bfbeeb3b34dd">
+    <name>Подъезд</name>
+    <synonym>
+      <key>uk</key>
+      <value>Під'їзд</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Подъезд</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Подъезд</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <attributes uuid="ad6ee1b4-dab3-4992-be7b-4364827306b6">
+    <name>ОСМД</name>
+    <synonym>
+      <key>uk</key>
+      <value>ОСББ</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>ОСМД</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ОСМД</types>
+    </type>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+  <forms uuid="ff3c0075-a66d-46b3-ba6d-42026796d25a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>

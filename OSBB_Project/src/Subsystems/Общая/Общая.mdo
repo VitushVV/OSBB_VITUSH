@@ -18,4 +18,6 @@
   <content>Role.Программист</content>
   <content>Role.Квартира</content>
   <content>Role.Глава_ОСМД</content>
+  <content>Enum.ВидПомещения</content>
+  <content>InformationRegister.Жители</content>
 </mdclass:Subsystem>

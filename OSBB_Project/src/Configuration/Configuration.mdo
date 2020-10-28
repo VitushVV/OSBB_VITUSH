@@ -38,12 +38,23 @@
     <languageCode>uk</languageCode>
   </languages>
   <subsystems>Subsystem.Общая</subsystems>
+  <subsystems>Subsystem.Дополнительно</subsystems>
   <roles>Role.Глава_ОСМД</roles>
   <roles>Role.Программист</roles>
   <roles>Role.Квартира</roles>
+  <commonModules>CommonModule.Общие</commonModules>
+  <commonForms>CommonForm.ПодключитьФайлХранилище</commonForms>
   <catalogs>Catalog.ОСМД</catalogs>
   <catalogs>Catalog.Помещения</catalogs>
   <catalogs>Catalog.Подъезд</catalogs>
   <catalogs>Catalog.ФизЛицо</catalogs>
+  <catalogs>Catalog.Должности</catalogs>
+  <catalogs>Catalog.ТипКонтактнойИнформации</catalogs>
+  <catalogs>Catalog.ДополнительноеПраво</catalogs>
+  <catalogs>Catalog.Хранилище</catalogs>
   <enums>Enum.ВидПомещения</enums>
+  <dataProcessors>DataProcessor.МастерНастройкиОСМД</dataProcessors>
+  <informationRegisters>InformationRegister.КонтактнаяИнформация</informationRegisters>
+  <informationRegisters>InformationRegister.Жители</informationRegisters>
+  <informationRegisters>InformationRegister.ДополнительныеПрава</informationRegisters>
 </mdclass:Configuration>
