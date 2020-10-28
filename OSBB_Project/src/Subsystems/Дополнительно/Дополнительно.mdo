@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3f2cf983-b6c2-4835-9097-5151a7074f3c">
+  <name>Дополнительно</name>
+  <synonym>
+    <key>uk</key>
+    <value>Додатково</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительно</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.ТипКонтактнойИнформации</content>
+  <content>InformationRegister.КонтактнаяИнформация</content>
+  <content>Catalog.Должности</content>
+  <content>InformationRegister.ДополнительныеПрава</content>
+  <content>DataProcessor.МастерНастройкиОСМД</content>
+  <content>Catalog.ДополнительноеПраво</content>
+</mdclass:Subsystem>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ce877bda-47ae-4cc4-9c97-95cbb82d9188">
+  <producedTypes>
+    <selectionType typeId="066ac46f-2694-4dfb-95a8-590ce45cf781" valueTypeId="080be583-6f66-4203-a850-650d7157322c"/>
+    <listType typeId="4bc6d746-4177-4250-96e6-b4cf85e76498" valueTypeId="d67f9a8f-c0c6-4fd3-bc63-16cf8bf1425c"/>
+    <managerType typeId="cc9f9df4-672b-4393-95bf-f3d6965c81df" valueTypeId="69b1c1dd-062d-46b8-8562-1104eebda67b"/>
+    <recordSetType typeId="33f0ba67-63df-494a-8add-e931a3f9c00b" valueTypeId="e4659c68-9090-46ec-b0b8-3c49cf3634e7"/>
+    <recordKeyType typeId="15047e8a-12b9-42f1-ad74-e5c6ab846118" valueTypeId="0bedd5a3-c4e2-472d-9077-e2048962cbd2"/>
+    <recordType typeId="b87c5e95-c9e3-4c8c-9e96-0b4fa85a5019" valueTypeId="cb8fea86-e31b-4117-af74-63e136521756"/>
+    <recordManagerType typeId="1419bf23-3985-4495-ae4a-a48cc04e4ee6" valueTypeId="deb16c1b-9da8-4419-a9b8-7221032cd2f5"/>
+  </producedTypes>
+  <name>Жители</name>
+  <synonym>
+    <key>uk</key>
+    <value>Мешканці</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Жители</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="9dc63084-bedb-487c-83f8-8a48785589ec">
+    <name>Часть</name>
+    <synonym>
+      <key>uk</key>
+      <value>Частка</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Часть</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="b7c165eb-aaf5-47b2-bfb8-83eb7d9911d2">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз. особа</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизЛицо</types>
+    </type>
+    <createOnInput>Use</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="c1c2d028-671c-49cf-8d47-59eef610d5e2">
+    <name>Помещения</name>
+    <synonym>
+      <key>uk</key>
+      <value>Приміщення</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Помещения</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Помещения</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

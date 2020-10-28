@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5b48cd4d-e3af-45f4-9f12-9a5ece94fb66">
+  <producedTypes>
+    <objectType typeId="d08d251c-17b0-4e36-bfe1-f767dc532dc2" valueTypeId="2bbcb66f-9c80-4b02-94cc-4b14549c2988"/>
+    <managerType typeId="ee03079e-3d4b-48c9-ad01-4d409904fe22" valueTypeId="3990a829-4c5f-4061-9cb0-edaec92cff7d"/>
+  </producedTypes>
+  <name>МастерНастройкиОСМД</name>
+  <synonym>
+    <key>uk</key>
+    <value>Майстер налаштування ОСББ</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Мастер настройки ОСМД</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

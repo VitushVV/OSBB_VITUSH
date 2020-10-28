@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1e29d832-da17-4868-b890-05d59d0b08fc">
+  <producedTypes>
+    <objectType typeId="97316a10-64cf-49df-bf4c-ddfd421671f0" valueTypeId="31033c14-699c-4654-8bde-66c92cd78283"/>
+    <refType typeId="0d7d8ea8-4649-46fd-ae04-83d833776738" valueTypeId="9779343d-2986-4710-b8f2-34c1af12a7cd"/>
+    <selectionType typeId="9444b53a-7b95-4ee5-b16f-0a6c517f844d" valueTypeId="d9284798-8ca4-4677-9936-416fd6fdf05e"/>
+    <listType typeId="a46881f7-255a-458b-8879-9541a8eac9bf" valueTypeId="32b4b582-2122-437b-8262-cf9bf657ba9a"/>
+    <managerType typeId="e7689b24-ae96-4a19-aa2b-a48372cd32cc" valueTypeId="f3d7f7db-bf73-441a-9f51-bb34e1fdb9c5"/>
+  </producedTypes>
+  <name>ДополнительноеПраво</name>
+  <synonym>
+    <key>uk</key>
+    <value>Додаткове право</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительное право</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ДополнительноеПраво.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ДополнительноеПраво.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="aa87e147-8c0f-4e75-bbe2-a69dd1c2534d">
+      <name>РедактироватьШапкуСправочников</name>
+      <description>Редактировать шапку справочников</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

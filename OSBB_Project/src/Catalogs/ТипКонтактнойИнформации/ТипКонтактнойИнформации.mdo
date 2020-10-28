@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bf6780bd-14a6-443d-9554-296b9286fca6">
+  <producedTypes>
+    <objectType typeId="56ca5d25-c277-44ff-b788-b27688d60fc5" valueTypeId="3570808d-dd59-4bca-86de-59c95abfe706"/>
+    <refType typeId="4681aa19-8eff-4658-8953-6eb2be4fc707" valueTypeId="de4b1b3e-631f-4cad-805e-2036884038f2"/>
+    <selectionType typeId="437a2550-d295-4c05-a1ed-98f7c047f375" valueTypeId="3f345bda-2018-4cf8-9c64-f15b15164e5f"/>
+    <listType typeId="a785a7eb-4c80-46a6-a9d0-53d245f75351" valueTypeId="11b0ff51-d332-4253-bfb7-e337a4f25381"/>
+    <managerType typeId="87e83497-536e-4ff6-81b2-68200b35cdf7" valueTypeId="c12b90e6-fb03-4c81-9651-86efac828894"/>
+  </producedTypes>
+  <name>ТипКонтактнойИнформации</name>
+  <synonym>
+    <key>uk</key>
+    <value>Тип контактної інформації</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Тип контактной информации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ТипКонтактнойИнформации.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.ТипКонтактнойИнформации.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

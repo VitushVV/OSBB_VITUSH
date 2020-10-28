@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c23b435c-0a6a-4471-802a-666e22ddd08d">
+  <producedTypes>
+    <selectionType typeId="5164c609-481d-4220-9a7a-c8d64f50d1ab" valueTypeId="ec335fc7-ccb2-4d84-b5c8-316af50bea00"/>
+    <listType typeId="6c073ead-18e5-4b0b-a37d-bf33c8a48c57" valueTypeId="9ebed78e-6c88-43d5-ba86-8dfdda0a04f9"/>
+    <managerType typeId="99962bbc-324b-488c-82ad-b9856b675be2" valueTypeId="2d1be779-0ead-4e59-a9cd-a1af33c23bb1"/>
+    <recordSetType typeId="260b3d67-2c98-4337-9774-6c5c030abbd0" valueTypeId="a0ee526a-7437-42ca-96fb-72ab4b4f61af"/>
+    <recordKeyType typeId="3c2c5103-8a13-4474-9f70-18834dd03242" valueTypeId="9d48c6e1-42d5-451b-820e-05014fe056be"/>
+    <recordType typeId="2cbed1e8-a192-4071-b27f-ecec5a3460d7" valueTypeId="88207e70-9437-4d8f-b330-b79c9484b31f"/>
+    <recordManagerType typeId="32ae8b3b-41ba-4e55-983b-412343accdd7" valueTypeId="6359b26d-7091-4df1-87c9-330380d03e4c"/>
+  </producedTypes>
+  <name>ДополнительныеПрава</name>
+  <synonym>
+    <key>uk</key>
+    <value>Додаткові права</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Дополнительные права</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="5bd6c3b2-7013-48a3-aac5-418604ae64b8">
+    <name>Использовать</name>
+    <synonym>
+      <key>uk</key>
+      <value>Використати</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Использовать</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="9a121ef1-4298-4709-b0c3-7198c7365f74">
+    <name>ДополнительноеПраво</name>
+    <synonym>
+      <key>uk</key>
+      <value>Додаткове право</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительное право</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ДополнительноеПраво</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="cf8d25bb-1005-4364-9848-010a15630405">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз. особа</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизЛицо</types>
+    </type>
+    <createOnInput>Use</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+</mdclass:InformationRegister>

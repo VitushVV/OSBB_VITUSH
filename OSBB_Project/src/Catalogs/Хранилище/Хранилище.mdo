@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fcc96e38-6ca5-4862-9c6f-3a9bf0408f07">
+  <producedTypes>
+    <objectType typeId="c3ec91ef-8fc8-48a9-9211-6db9512276d8" valueTypeId="1452ed5b-1b9a-4efc-ab1c-d5e5326c3798"/>
+    <refType typeId="9609d4b1-9426-435b-9e56-2b07a820cb31" valueTypeId="f2bffa3c-db71-4d12-b41d-c9410078e7ca"/>
+    <selectionType typeId="f2187d56-e71b-4db2-8bf7-f0290a4c56b8" valueTypeId="ea6b3226-fa80-4267-8b40-b7ca55da14de"/>
+    <listType typeId="a606d2f0-2419-4651-a180-ab0400c93ee7" valueTypeId="64b2f3b9-e27e-4d68-ae84-d6a410a1026b"/>
+    <managerType typeId="1ee7ddf6-f4ea-4055-b08a-4d12a811ad3a" valueTypeId="1b351e4c-b4e1-4eae-a3c1-c5dff098626a"/>
+  </producedTypes>
+  <name>Хранилище</name>
+  <synonym>
+    <key>uk</key>
+    <value>Сховище</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.Хранилище.StandardAttribute.Code</inputByString>
+  <inputByString>Catalog.Хранилище.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <attributes uuid="6e2ea990-a99e-4ae0-ab88-fd9fe6beec23">
+    <name>Метаданные</name>
+    <synonym>
+      <key>uk</key>
+      <value>Метадані</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Метаданные</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+      <types>CatalogRef</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </attributes>
+</mdclass:Catalog>

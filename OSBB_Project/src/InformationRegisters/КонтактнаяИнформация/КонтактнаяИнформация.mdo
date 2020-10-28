@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2d92282b-9d92-45ed-ac0f-167885ad1d80">
+  <producedTypes>
+    <selectionType typeId="6da17720-c8f3-480e-8573-65d454f710c2" valueTypeId="a88d11b0-9ad3-4c8a-86b4-013fbd99a8e6"/>
+    <listType typeId="17d62368-a529-41e0-9b25-e3f60bf7787d" valueTypeId="8947e35a-0f2a-4ea9-892e-cb5cca3bde55"/>
+    <managerType typeId="551af3c3-096a-4438-9380-cce5695ef4d9" valueTypeId="bb80b0f6-c46a-4e0f-b982-c9624f2e448a"/>
+    <recordSetType typeId="5779afe7-7543-4eb8-bcd3-2a92dd62fd90" valueTypeId="02ba4694-c3a9-4609-8ff0-070d4cbc7b99"/>
+    <recordKeyType typeId="a6176b0f-149f-40dd-b646-a26b549b55ba" valueTypeId="7644aa61-85fc-4f98-b0d2-22e8ba97b101"/>
+    <recordType typeId="734259ef-7708-4022-bdbd-831bc0ffab09" valueTypeId="5d881a02-5dcf-41fe-acbc-02dcdf1b221c"/>
+    <recordManagerType typeId="8bacf2d3-d9fd-4519-be84-b00355efc044" valueTypeId="6ea0ee7d-f3e6-423c-b627-24bff4305743"/>
+  </producedTypes>
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>uk</key>
+    <value>Контактна інформація</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d37cc596-8846-4062-8137-00c12177c34c">
+    <name>Описания</name>
+    <synonym>
+      <key>uk</key>
+      <value>Опис</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Описания</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>250</length>
+      </stringQualifiers>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+  </resources>
+  <dimensions uuid="4fa372c3-4664-483f-af4f-df270d23e6fd">
+    <name>ФизЛицо</name>
+    <synonym>
+      <key>uk</key>
+      <value>Фіз. особа</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Физ. лицо</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ФизЛицо</types>
+    </type>
+    <createOnInput>Use</createOnInput>
+    <fullTextSearch>Use</fullTextSearch>
+  </dimensions>
+  <dimensions uuid="ca71e0cb-f690-4af7-aaaf-8d2dda3566a0">
+    <name>ТипКонтактнойИнформации</name>
+    <synonym>
+      <key>uk</key>
+      <value>Тип контактної інформації</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Тип контактной информации</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ТипКонтактнойИнформации</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>
